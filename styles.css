@@ -1,0 +1,62 @@
+body {
+color: #8f8f8f;
+  text-align: center;
+}
+
+h1 {
+color: gray;
+font-family: "Arvo", cursive;
+  font-size: 3rem;
+  text-shadow: 3px 0 #fffff0;
+}
+
+h4 {
+  color: #DC3545;
+  text-decoration: underline;
+}
+
+#you, #comp {
+  color: #DC3545;
+}
+
+.choice {
+  font-size: 6rem;
+  padding-bottom: 4%;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.game-over {
+  background-color: #BEC2CB;
+  opacity: 0.8;
+}
+
+.game-won {
+  background-color: #FFD700;
+  opacity: 0.8;
+}
+
+.header {
+  margin: 2% 0;
+}
+
+.icon {
+  margin: 20px;
+}
+
+.player-box {
+  display: inline-block;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  width: 30%;
+}
+
+.vs {
+  bottom: 50px;
+  display: inline-block;
+  margin: auto 0;
+  width: 10%;
+}

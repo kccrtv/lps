@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lapis, Papyrus, Scalpellus</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>🤜🏻 Lapis, Papyrus, Scalpellus 🤛🏻</h1>
+
+    <div class="container">
+      <div class="player-box col-lg-6 player user">
+        <i class="icon far fa-user fa-4x"></i>
+        <h3 id="you">You</h3>
+      </div>
+
+      <div class="vs col-lg-12">
+        <h3>vs.</h3>
+      </div>
+
+      <div class="player-box col-lg-6 player computer">
+        <i class="icon fas fa-desktop fa-4x"></i>
+        <h3 id="comp">The Computer</h3>
+      </div>
+    </div>
+
+    <h4 id="round">Choose your weapon!</h4>
+  </div>
+
+  <div class="container row">
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Rock</h3>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-hand-rock choice"></i>
+          <button id="lapis" class="btn btn-lg btn-block btn-outline-danger" type="button">lapis</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Paper</h3>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-hand-paper choice"></i>
+          <button id="papyrus" class="btn btn-lg btn-block btn-outline-danger" type="button">papyrus</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Scissors</h3>
+        </div>
+        <div class="card-body">
+          <i class="fas fa-hand-scissors choice"></i>
+          <button id="scalpellus" class="btn btn-lg btn-block btn-outline-danger" type="button">scalpellus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h1 id="win" class="results">Play to reveal the winner!</h1>
+  </div>
+
+  <footer>
+    <p>Made by Kimberly Cinco 2020</p>
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
